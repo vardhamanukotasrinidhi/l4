@@ -1,0 +1,36 @@
+{
+  "name": "l4",
+  "version": "1.0.0",
+  "main": "todo.js",
+  "scripts": {
+    "start": "node todo.js",
+    "test": "jest",
+    "prepare": "husky install"
+  },
+  "lint-staged": {
+    "*.js": [
+      "eslint",
+      "prettier --write ."
+    ]
+  },
+  "author": "srinidhi",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vardhamanukotasrinidhi/l4.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vardhamanukotasrinidhi/l4/issues"
+  },
+  "homepage": "https://github.com/vardhamanukotasrinidhi/l4#readme",
+  "description": "",
+  "devDependencies": {
+    "eslint": "^8.28.0",
+    "husky": "^8.0.2",
+    "lint-staged": "^13.0.3",
+    "prettier": "^2.7.1"
+  },
+  "dependencies": {
+    "jest": "^29.3.1"
+  }
+}
